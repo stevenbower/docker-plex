@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND="noninteractive" \
     LANG="en_US.UTF-8" \
     LC_ALL="C.UTF-8" \
     LANGUAGE="en_US.UTF-8" \
-    PLEX_VERSION="0.9.12.1.1079-b655370"
+    PLEX_VERSION="0.9.12.8.1362-4601e39"
 
 RUN apt-get -q update && \
     apt-get install -qy --force-yes curl && \
